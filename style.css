@@ -102,8 +102,8 @@ width:90%;
 max-width:1400px;
 margin:auto;
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
 padding-bottom:70px;
 }
 
@@ -123,8 +123,9 @@ background-color:  transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 600px;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
 }
 
 .info{
@@ -363,8 +364,9 @@ background-color:  transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 600px;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
 }
 .dados-cliente input{
 width:100%;
