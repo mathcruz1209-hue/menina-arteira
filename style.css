@@ -123,7 +123,7 @@ background-color:  transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 70%;
     height: 320px;
     object-fit: cover;
 }
