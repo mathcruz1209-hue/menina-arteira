@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meninas Arteiras</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Indigenas</div>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#produtos">Coleção</a>
+    <a href="#carrinho">Carrinho</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-box">
+    <h1>Indos arterihos<br> Cheias de personalizadas e ancestralidade,
+      diversidade e inclusão.</h1>
+
+
+   
+   <a href="https://www.instagram.com/meninaarteirabonecasdepano?igsh=MTU3bzZnc3U4emwzcA==" 
+   target="_blank" 
+   class="insta-btn">
+   
+   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24">
+      <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm8.88 1.12a1.13 1.13 0 1 1 0 2.26 1.13 1.13 0 0 1 0-2.26zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5z"/>
+   </svg>
+
+   Instagram
+</a>
+  </div>
+</section>
+<script>
+  const CATEGORIA_PAGINA = "indigenas";
+</script>
+
+<section class="produtos" id="lista-produtos">
+</section>
+
+
+
+<section id="carrinho">
+
+  <div class="dados-cliente">
+</div>
+
+<h2>🛒 Seu Carrinho</h2>
+
+<ul id="lista-carrinho"></ul>
+
+<div class="total-box">
+Total: <span id="total">R$ 0,00</span>
+</div>
+
+<button class="btn-finalizar" onclick="finalizarCompra()">
+Finalizar Pedido no WhatsApp
+</button>
+
+</section>
+
+<div id="carrinho-total">
+🛒 Carrinho: R$ 0,00
+</div>
+
+<h2 class="titulo">Por Que Escolher?</h2>
+
+<section class="beneficios">
+
+<div class="box">
+<h4>Entrega Rápida</h4>
+<p>Receba em todo brasil com segurança.</p>
+</div>
+
+<div class="box">
+<h4>Qualidade Premium</h4>
+<p>Produtos feitos com carinho.</p>
+</div>
+
+<div class="box">
+<h4>Atendimento VIP</h4>
+<p>Suporte no WhatsApp.</p>
+</div>
+
+<div class="box">
+<h4>Presente Ideal</h4>
+<p>Encante quem você ama.</p>
+</div>
+
+</section>
+
+<a class="whats" id="contato"
+href="https://wa.me/555199798046"
+target="_blank">
+WhatsApp
+</a>
+
+<footer>
+© 2026 Meninas Arteiras - Todos os direitos reservados
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>
